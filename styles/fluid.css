@@ -59,11 +59,11 @@ section {
     border:solid dodgerblue 3em;
 }
 .hero {
-    background-image: url(../images/water6.jpg);
+    /* background-image: url(../images/water6.jpg); */
     border-top-right-radius: 2em;
     /* border: solid black 2px; */
 }
 .hero p {
-    width: 50%;
+    width: 90%;
 }
 
