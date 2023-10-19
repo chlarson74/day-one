@@ -34,12 +34,12 @@ section {
 /* individual class for section background images */
 .em {
   background-image: url(../images/water1.jpg);
-  border:solid darkorange 1em;
+  border:solid white 1em;
   font-size:1.2em;
 }
 .rem {
     background-image: url(../images/water2.jpg);
-    border: dotted darkred .5rem;
+    border: dotted white .5rem;
 }
 .vw {
     background-image: url(../images/water5.jpg);
@@ -56,7 +56,7 @@ section {
 .box {
     background-image: url(../images/water4.jpg);
     box-sizing: border-box;
-    border:solid dodgerblue 3em;
+    border:solid white 3em;
 }
 .hero {
     /* background-image: url(../images/water6.jpg); */
