@@ -1,0 +1,72 @@
+header, section, aside, article, footer, figure {
+    display: block;
+    font-family: 'Glory', sans-serif;
+}
+
+header{
+    background-color: white;
+    color: #1b1e29;
+    padding-top: 25px;
+}
+
+header h1{
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+header h3{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    background-color: #1b1e29;
+    margin-bottom: 15px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    padding: 9px;
+    display: block;
+    width: 175px;
+    text-decoration: none;
+    background-color: #1b1e29;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #344e5f;
+}
+.loki {
+    background-color:#1b1e29;
+    width: 700px;
+    padding: 7px;
+    margin: 5px;
+    float: left;
+}
+.leroy {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: 'Glory', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.leo {
+    background-color: #07080d;
+    padding: 10px 5px 3px 6px;
+}
+.leo img {
+    vertical-align: top;
+    margin: 10px 5px 3px 6px;
+}
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
