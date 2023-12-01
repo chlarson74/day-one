@@ -9,15 +9,37 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="../styles/mobile-nav.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-	<header>
+	<nav class="navbar">
+        <div class="page-title"><p>History of the Internet</p></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>   
+                <li><a href="history.html">History</a></li>   
+                <li><a href="stew.html">Stew</a></li>   
+                <li><a href="theater.html">Theater</a></li>   
+                <li><a href="cascades.html">Cascades</a></li>   
+                <li><a href="lopez.html">Lopez Is</a></li>
+                <li><a href="orcas.html">Orcas Is</a></li>
+                <li><a href="final.html">Final</a></li>
+            </ul>
+        </div>
+    </nav>
+	<!-- <header>
 		<a href="../index.html">Home</a>
 		<a href="theater2.html">Theater Bill</a>
 		<a href="stew.html">Stew Recipe</a>
 		<a href="cascade.html">Cascades</a>
 		<a href="#lily">jump to bottom</a>
-	</header>
+	</header> -->
 	<main>
 		<section 		
 		data-aos="fade-up"
@@ -151,5 +173,6 @@
 	<script>
 	  AOS.init();
 	</script>
+	<script src="../scripts/mobile-nav.js"></script>
 </body>
 </html>

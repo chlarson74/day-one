@@ -29,12 +29,12 @@ nav p {
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    color:darkslategray;
+    /* color:darkslategray; */
 }
 nav p:hover {
     color:darkgoldenrod;
 }
-nav, main, footer {
+main, footer {
     color:white;
     display: flex;
     width:70%;
